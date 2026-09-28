@@ -34,10 +34,4 @@ public class HelloController {
         return "Goodbye from Spring Boot!";
     }
 
-    @GetMapping("third_endpoint")
-    private String endPoint() {
-        return "Endpoint wanted!"
-    }
-
 }
-
