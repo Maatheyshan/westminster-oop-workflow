@@ -10,3 +10,4 @@ public class InfoController {
         return "Information about the Spring Boot";
     }
 }
+

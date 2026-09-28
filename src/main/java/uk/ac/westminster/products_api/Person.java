@@ -20,6 +20,7 @@ public class Person {
     private String name;
     private String email;
     private String information;
+    private String endpoint;
 
     public Person() {
     }
@@ -53,7 +54,13 @@ public class Person {
         this.information = information;
     }
 
+    public String end() {
+        return endpoint;
+    }
 
+    public void setEndpoint(String endpoint) {
+        this.endpoint = endpoint;
+    }
 }
 //
 //@GetMapping("/goodbye")
